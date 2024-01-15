@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>Label</key>
+   <string>com.mvmanila.mlshapes</string>
+   <key>ProgramArguments</key>
+   <array>
+	 <string>/usr/local/lib/mlshapes/osx-shapes.sh</string>
+   </array>
+   <key>StandardOutPath</key>
+   <string>/var/log/mlshapes.log</string>
+   <key>StandardErrorPath</key>
+   <string>/var/log/mlshapes.log</string>
+   <key>KeepAlive</key>
+   <dict>
+	<key>NetworkState</key>
+	<true/>
+   </dict>
+   <key>RunAtLoad</key>
+   <true/>
+</dict>
+</plist>
